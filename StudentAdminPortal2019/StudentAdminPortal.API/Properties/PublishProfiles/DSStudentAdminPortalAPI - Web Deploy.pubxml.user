@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfAqVc3ORjUCTmGpH4dxChQAAAAACAAAAAAAQZgAAAAEAACAAAACIqm56af3oWTC1dDdjWwh5tle6CMNBCAAHFiDDWlYmXQAAAAAOgAAAAAIAACAAAAC6E8sO7sp6SWEVIRkT/DWytYDpzodn48yrxkIC40dNxoAAAABbR5eImnYrvk+d3vSE0ZO+vxvCpOWCPtVeQ7ndTxcMXZZJyQmXn8g2mnQcaH6QNVKjR3mOPRvXVybneG2cMO8TorxrJg0Ctusx9YohwK3Nwj+fBTH2KxKGCAi8MpLgAPK4WgWkZxtJaUyhVi6yVzQtgAaBMV0VZnny1D8IeKs/Z0AAAADo49nmXxD994o8Ofvf0QrJhfuvaGZ47slYOCylQYFnWfCzKRn0ga0yiR5E8LYFlCR8UF35nilzS3SgR4duwGVA</EncryptedPassword>
+    <History>False|2023-05-12T22:14:39.7004044Z;True|2023-05-12T16:45:53.0813427-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="StudentAdminPortalDb">
+      <Value>Data Source=tcp:studentadmindbdbserver.database.windows.net,1433%3bInitial Catalog=StudentAdminDb%3bUser Id=D06a1d3ark495%40studentadmindbdbserver%3bPassword=3467B00kW0rmseatgrEEn</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="StudentAdminPortal.API.DataModels.StudentAdminContext">
+      <Value>Data Source=tcp:studentadmindbdbserver.database.windows.net,1433%3bInitial Catalog=StudentAdminDb%3bUser Id=D06a1d3ark495%40studentadmindbdbserver%3bPassword=3467B00kW0rmseatgrEEn</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

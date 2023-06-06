@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\A_Learn\VS2019\SAP2019\StudentAdminPortal.API\StudentAdminPortal.API\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\A_Learn\VS2019\SAP2019\StudentAdminPortal.API\StudentAdminPortal.API\obj\Release\net5.0\PubTmp\EFSQLScripts\StudentAdminPortal.API.DataModels.StudentAdminContext.sql" />
+</sitemanifest>
